@@ -1,0 +1,132 @@
+/* Login and Registration Page Styles */
+
+/* Center Form Container */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  background-image: url('images/wallpaper.jpeg'); 
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center; /* Center the background image */
+}
+
+/* Common Form Styles */
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.form-heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-field input {
+  padding: 8px;
+  border: 1px solid #f6f7f8;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-field input:focus {
+  border-color: #f6f7f8;
+  outline: none;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.form-submit {
+  background-color: #f6f7f8;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #f6f7f8;
+}
+
+.form-submit:active {
+  background-color: #f6f7f8;
+}
+
+.form-link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #f6f7f8;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Player Styles */
+
+.player-color {
+  background-color:  #7457ea; 
+  }
+  
+  .player-area {
+  background-color:  #7457ea;
+  background-image: url(images/chip.svg);
+  }
+  
+  .player-card .power {
+  background-image: url(images/shield.svg);
+  }
+  
+  /* Hacker Styles */
+  
+  .hacker-color {
+  background-color: #a8860a; /* yellow */
+  }
+  
+  .hacker-area {
+  background-color: #a8860a;
+  background-image: url(images/chip.svg);
+  }
+  
+  .hacker-card .power {
+  background-image: url(images/skull.svg);
+  }
+  
+  
+  
+    
+  
+  
+  
