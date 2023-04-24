@@ -5,100 +5,100 @@
 var scenarios = [
   {
     hackerCard : {
-      description : "I set up a fake Wi-Fi station to steal people’s email and track them online.",
+      description : "I established a fake Wi-Fi hotspot to illicitly obtain individuals' email and monitor their internet activities",
       power : 4,
     },
     playerCards : [
       {
-        description : "I never use public wifi networks.",
+        description : "I always avoid utilizing public Wi-Fi networks.",
         power : 5,
       },
       {
-        description : "I browse the web, but I never do any personal business on a public wifi network.",
+        description : "I explore the internet, yet I refrain from conducting any private affairs when connected to a public Wi-Fi network.",
         power : 3,
       },
       {
-        description : "I connect to any wifi network I can use in public.",
+        description : "I link up with any accessible public wifi network that I can utilize.",
         power : 1,
       }
     ]
   },
   {
     hackerCard : {
-      description : "I sent a fake email from your bank asking for your account details.",
+      description : "I transmitted a counterfeit email pretending to be from your bank, requesting your account information.",
       power : 3,
     },
     playerCards : [
       {
-        description : "I checked the email address - the message didn’t come from my bank.",
+        description : "I verified the email address, and the message was not sent by my bank.",
         power : 5,
       },
       {
-        description : "I never give out personal information in response to an email.",
+        description : "I never disclose personal details when replying to an email.",
         power : 4,
       },
       {
-        description : "I sent the details you asked for so you could check on my account.",
+        description : "I have forwarded the information you requested in order for you to review my account.",
         power : 1,
       }
     ]
   },
   {
     hackerCard : {
-      description : "I figured out where you live from all the personal information you share on social media.",
+      description : "I deduced your place of residence based on the abundance of personal details you divulge on social media platforms.",
       power : 3,
     },
     playerCards : [
       {
-        description : "I never share personal information on my social media accounts.",
+        description : "I always refrain from disclosing private details on my social media profiles.",
         power : 5,
       },
       {
-        description : "I keep my accounts private so only my friends can see them.",
+        description : "I maintain the privacy of my accounts in a way that limits their visibility to my friends exclusively.",
         power : 4,
       },
       {
-        description : "I tag everything so my friends always know what I’m doing.",
+        description : "I label everything, so my friends are always aware of my activities.",
         power : 1,
       }
     ]
   },
   {
     hackerCard : {
-      description : "I watched you type your password and hacked your account.",
+      description : "I observed you entering your password and gained unauthorized access to your account.",
       power : 2,
     },
     playerCards : [
       {
-        description : "I use different passwords for all of my other accounts.",
+        description : "My passwords for each of my other accounts are unique and not the same.",
         power : 4,
       },
       {
-        description : "I changed my password on all of my accounts because they are the same.",
+        description : "I updated my password across all my accounts since they had identical ones.",
         power : 2,
       },
       {
-        description : "I deleted that account and started a new one. ",
+        description : "I erased that account and created a fresh one. ",
         power : 1,
       }
     ]
   },
   {
     hackerCard : {
-      description : "I looked at your browsing history on your phone to see what you do online.",
+      description : "I checked your internet activity on your mobile device to observe what you have been doing on the web.",
       power : 2,
     },
     playerCards : [
       {
-        description : "I always use a private browser that never keeps my history.",
+        description : "My browsing history is never stored because I consistently use a private browser.",
         power : 4,
       },
       {
-        description : "I set my browser to delete my history every time I quit. ",
+        description : "I configured my browser to erase my browsing history each time I close it.",
         power : 3,
       },
       {
-        description : "I never clear my browser history because I don’t like typing in big web addresses.",
+        description : "I avoid deleting my browsing history as I find it cumbersome to type lengthy website addresses.",
         power : 1,
       }
     ]
@@ -106,20 +106,20 @@ var scenarios = [
 
   {
     hackerCard : {
-      description : "I hacked your system and all your data is deleted now.",
+      description : "I gained unauthorized access to your system and have erased all of your data..",
       power : 2,
     },
     playerCards : [
       {
-        description : "I follow the 3-2-1 backup rule. I have on-site as well as off-site location (cloud storage) backup.",
+        description : "I adhere to the 3-2-1 backup strategy and keep backup copies of my data in both physical and remote locations, utilizing cloud storage as my off-site backup solution.",
         power : 4,
       },
       {
-        description : "I have my data backed up in local and external hard drive.",
+        description : "My data is saved both on a local and an external hard drive as a backup.",
         power : 3,
       },
       {
-        description : "I never backed up my data in any way.",
+        description : "I did not make any copies or duplicates of my data for safekeeping at any point in time.",
         power : 1,
       }
     ]
@@ -127,40 +127,40 @@ var scenarios = [
 
   {
     hackerCard : {
-      description : "I provided you my USB for content transfer.",
+      description : "I gave you my USB device to transfer content.",
       power : 2,
     },
     playerCards : [
       {
-        description : "I use Anti-Virus Protection & Firewall to protect my system.",
+        description : "To safeguard my system, I employ both antivirus protection and a firewall.",
         power : 4,
       },
       {
-        description : "I refused to use your USB as my system was not having Anti-Virus Protection & Firewall.",
+        description : "I declined to use your USB drive because my system did not have any antivirus protection or firewall.",
         power : 3,
       },
       {
-        description : "I used your USB as I am not afraid of my system getting corrupted.",
+        description : "I employed your USB because I do not have any apprehensions about my system getting damaged.",
         power : 1,
       }
     ]
   }, 
   {
     hackerCard : {
-      description : "I will crash your vulnerable system using ransomware attacks, malware and data breaches.",
+      description : "My intention is to harm your system by using malicious software like ransomware, malware, and data breaches.",
       power : 2,
     },
     playerCards : [
       {
-        description : "You can't because I have turnned on Automatic Updates for my operating system.",
+        description : "I'm sorry, but you won't be able to do that because I have enabled the Automatic Updates feature for my operating system.",
         power : 4,
       },
       {
-        description : "I use web browsers such as Chrome or Firefox that receive frequent, automatic security updates.",
+        description : "I utilize web browsers like Chrome or Firefox which regularly receive automatic security updates.",
         power : 3,
       },
       {
-        description : "I don't update my softwares nor do I download security updates.",
+        description : "I neither update my software nor install security updates.",
         power : 1,
       }
     ]
