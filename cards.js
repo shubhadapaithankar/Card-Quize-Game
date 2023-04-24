@@ -1,10 +1,10 @@
 // You can add new scenarios, but make sure that there is exactly...
-// * 1 hackerCard per scenario
+// * 1 HackerBattle per scenario
 // * 3 playerCards per scenario
 
 var scenarios = [
   {
-    hackerCard : {
+    HackerBattle : {
       description : "I established a fake Wi-Fi hotspot to illicitly obtain individuals' email and monitor their internet activities",
       power : 4,
     },
@@ -24,7 +24,7 @@ var scenarios = [
     ]
   },
   {
-    hackerCard : {
+    HackerBattle : {
       description : "I transmitted a counterfeit email pretending to be from your bank, requesting your account information.",
       power : 3,
     },
@@ -44,7 +44,7 @@ var scenarios = [
     ]
   },
   {
-    hackerCard : {
+    HackerBattle : {
       description : "I deduced your place of residence based on the abundance of personal details you divulge on social media platforms.",
       power : 3,
     },
@@ -64,7 +64,7 @@ var scenarios = [
     ]
   },
   {
-    hackerCard : {
+    HackerBattle : {
       description : "I observed you entering your password and gained unauthorized access to your account.",
       power : 2,
     },
@@ -84,7 +84,7 @@ var scenarios = [
     ]
   },
   {
-    hackerCard : {
+    HackerBattle : {
       description : "I checked your internet activity on your mobile device to observe what you have been doing on the web.",
       power : 2,
     },
@@ -105,7 +105,7 @@ var scenarios = [
   }, 
 
   {
-    hackerCard : {
+    HackerBattle : {
       description : "I gained unauthorized access to your system and have erased all of your data..",
       power : 2,
     },
@@ -126,7 +126,7 @@ var scenarios = [
   }, 
 
   {
-    hackerCard : {
+    HackerBattle : {
       description : "I gave you my USB device to transfer content.",
       power : 2,
     },
@@ -146,7 +146,7 @@ var scenarios = [
     ]
   }, 
   {
-    hackerCard : {
+    HackerBattle : {
       description : "My intention is to harm your system by using malicious software like ransomware, malware, and data breaches.",
       power : 2,
     },

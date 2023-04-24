@@ -65,16 +65,16 @@ function revealPlayerPower(){
 
 // Shows the power level on the hacker card
 function revealHackerPower(){
-  var hackerCard = document.querySelector(".hacker-card");
-  hackerCard.classList.add("reveal-power");
+  var HackerBattle = document.querySelector(".hacker-card");
+  HackerBattle.classList.add("reveal-power");
 }
 
 function compareCards(){
   var playerCard = document.querySelector(".played-card");
   var playerPowerEl = playerCard.querySelector(".power");
 
-  var hackerCard = document.querySelector(".hacker-card");
-  var hackerPowerEl = hackerCard.querySelector(".power");
+  var HackerBattle = document.querySelector(".hacker-card");
+  var hackerPowerEl = HackerBattle.querySelector(".power");
 
   var playerPower = parseInt(playerPowerEl.innerHTML);
   var hackerPower = parseInt(hackerPowerEl.innerHTML);
@@ -84,18 +84,18 @@ function compareCards(){
   if (powerDifference < 0) {
     // Player Loses
     playerLife = playerLife + powerDifference;
-    hackerCard.classList.add("better-card");
+    HackerBattle.classList.add("better-card");
     playerCard.classList.add("worse-card");
     document.querySelector(".player-stats .thumbnail").classList.add("ouch");
   } else if (powerDifference > 0) {
     // Player Wins
     hackerLife = hackerLife - powerDifference;
     playerCard.classList.add("better-card");
-    hackerCard.classList.add("worse-card");
+    HackerBattle.classList.add("worse-card");
     document.querySelector(".hacker-stats .thumbnail").classList.add("ouch");
   } else {
     playerCard.classList.add("tie-card");
-    hackerCard.classList.add("tie-card");
+    HackerBattle.classList.add("tie-card");
   }
 
   updateScores();
@@ -234,14 +234,14 @@ function revealCards(){
 
   var randomScenarioIndex = Math.floor(Math.random() * scenarios.length);
   var scenario = scenarios[randomScenarioIndex];
-  console.log(scenario.hackerCard.description);
+  console.log(scenario.HackerBattle.description);
 
   scenarios.splice(randomScenarioIndex, 1);
 
   console.log("scenarios.length after splice == " + scenarios.length);
 
-  var hackerCard = scenario.hackerCard;
-  var hackerCardEl = document.querySelector(".hacker-area .card");
+  var HackerBattle = scenario.HackerBattle;
+  var HackerBattleEl = document.querySelector(".hacker-area .card");
 
   // Contents of the player cards
   var playerCards = scenario.playerCards;
@@ -274,6 +274,6 @@ function revealCards(){
   }
 
   // Display the hacker card
-  hackerCardEl.querySelector(".text").innerHTML = hackerCard.description;
-  hackerCardEl.querySelector(".power").innerHTML = hackerCard.power;
+  HackerBattleEl.querySelector(".text").innerHTML = HackerBattle.description;
+  HackerBattleEl.querySelector(".power").innerHTML = HackerBattle.power;
 }
