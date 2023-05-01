@@ -119,11 +119,71 @@ function gameOver(winner) {
   document.querySelector(".winner-section").classList.remove("hacker-color");
 
   if(winner == "Hacker") {
+//     document.querySelector(".winner-message").innerHTML = hackerWinnerMessage;
+//     document.querySelector(".winner-section").classList.add("hacker-color");
+    
     document.querySelector(".winner-message").innerHTML = hackerWinnerMessage;
-    document.querySelector(".winner-section").classList.add("hacker-color");
+
+        document.querySelector(".winner-section").classList.add("hacker-color");
+
+        const newWindow = window.open();
+        newWindow.document.write(`
+        <html lang = "en"> <head>
+        <style>
+          body {
+            background-image: url('images/hacker.jpeg');
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+          }
+          .message {
+            font-size: 2em;
+            text-align: center;
+          }
+        </style>
+      </head>
+      <body>
+      
+      
+        <div class="message">${hackerWinnerMessage}</div>
+      </body>
+    </html>
+  `);
+  
+    
+    
   } else {
-    document.querySelector(".winner-message").innerHTML = playerWinnerMessage;
-    document.querySelector(".winner-section").classList.add("player-color");
+//     document.querySelector(".winner-message").innerHTML = playerWinnerMessage;
+//     document.querySelector(".winner-section").classList.add("player-color");
+    const newWindow = window.open();
+      
+        document.querySelector(".winner-section").classList.add("player-color");
+        newWindow.document.write(`
+        <html lang = "en"> <head>
+        <style>
+          body {
+            background-image: url('images/playerwin.jpeg');
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+          }
+          .message {
+            font-size: 2em;
+            text-align: center;
+          }
+        </style>
+      </head>
+      <body>
+      
+        
+      </body>
+    </html>
+  `);
+      
   }
 }
 
