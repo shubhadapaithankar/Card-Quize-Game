@@ -17,8 +17,6 @@ Hacker Battle - a fun and interactive way to learn about cybersecurity and priva
 <p float="left">
 <img src="https://user-images.githubusercontent.com/99461999/236038001-c9e77044-a749-49aa-aa2c-0888ae9f2d66.png" width="330" height="190">
 <img src="https://user-images.githubusercontent.com/99461999/236038235-7767bfda-e637-4d5c-bcea-7a2a9ee4fa25.png" width="330" height="190">
-<img src="https://user-images.githubusercontent.com/99461999/236038288-63eaece6-389a-446a-905e-99e828326098.png" width="330" height="190">
-<img src="https://user-images.githubusercontent.com/99461999/236038435-f24a5150-bc60-4262-97cf-2a15c1ae7119.png" width="330" height="190">
 <img src="https://user-images.githubusercontent.com/99461999/236038441-26f08bd7-08be-4d63-9fd4-1100bae6a798.png" width="330" height="190">
 <img src="https://user-images.githubusercontent.com/99461999/236038438-8c626f13-6530-4ea1-845b-d955e6deaaeb.png" width="330" height="190">
 <img src="https://user-images.githubusercontent.com/99461999/236038455-83c3d48e-09e8-4599-9273-1c564f5d9291.png" width="330" height="190">
