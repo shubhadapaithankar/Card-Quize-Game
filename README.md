@@ -8,8 +8,8 @@
 4. Satya V
 
 
-
-## Introduction
+ 
+## Introduction:
  
 Hacker Battle - a fun and interactive way to learn about cybersecurity and privacy while enjoying a captivating gameplay experience.The game is designed specifically to target individuals who are relatively new to the internet or seeking to enhance their knowledge of cybersecurity and privacy. By combining the appeal of a traditional card game with the convenience and accessibility of a web platform, Hacker Battle offers an innovative approach to cybersecurity education that is both enjoyable and informative.
 
