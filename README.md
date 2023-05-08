@@ -48,6 +48,12 @@ If you lose against the hacker it shows the message “ You got hacked by hacker
 
 </p>
 
-
+## Instuction To Run Application
+1. Clone the repo ` git clone git@github.com:shubhadapaithankar/Card-Quize-Game.git`
+2. change the directory ` cd Card-Quize-Game`
+3. `npm install`
+4. `cd Demo`
+5. Start the application `npm test`
+6. Access the application via browser `http://localhost:3000/`
 
 
