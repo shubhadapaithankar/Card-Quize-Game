@@ -1,5 +1,7 @@
 # Hacker Battle: An Immersive and Educational Game for Cybersecurity and Privacy
 
+## Online diployment : https://shubhadasanjaypait.wixsite.com/my-site-2 
+
 ## Team information:
 
 1. Shubhada Sanjay Paithankar
