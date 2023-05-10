@@ -1,6 +1,9 @@
 # Hacker Battle: An Immersive and Educational Game for Cybersecurity and Privacy
 
-## Online diployment : https://shubhadasanjaypait.wixsite.com/my-site-2 
+## Diployment/live Game:  : https://shubhadasanjaypait.wixsite.com/my-site-2 
+## Interactive Game Instructions and Demonstration: https://youtu.be/_mIKSP2dO7o
+## Demo: https://www.youtube.com/watch?v=QHwvjLZ2PNY 
+
 
 ## Team information:
 
@@ -8,8 +11,6 @@
 2. Palash Shan
 3. Haard Sujal Shah
 4. Satya V
-
-
  
 ## Introduction:
  
